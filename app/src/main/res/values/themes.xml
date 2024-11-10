@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DailyDoze" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Set the status bar color -->
+        <item name="android:statusBarColor">@color/myGreen</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.DailyDoze" parent="Base.Theme.DailyDoze" />
+</resources>

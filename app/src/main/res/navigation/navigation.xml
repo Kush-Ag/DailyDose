@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.dailydoze.Fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/inventoryFragment"
+        android:name="com.example.dailydoze.Fragments.InventoryFragment"
+        android:label="fragment_inventory"
+        tools:layout="@layout/fragment_inventory" />
+    <fragment
+        android:id="@+id/healthReportFragment"
+        android:name="com.example.dailydoze.Fragments.HealthReportFragment"
+        android:label="fragment_health_report"
+        tools:layout="@layout/fragment_health_report" />
+    <fragment
+        android:id="@+id/currentPlanFragment"
+        android:name="com.example.dailydoze.Fragments.CurrentPlanFragment"
+        android:label="fragment_current_plan"
+        tools:layout="@layout/fragment_current_plan" />
+</navigation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Home"
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/home_icon"/>
+
+    <item android:title="Inventory"
+        android:id="@+id/inventoryFragment"
+        android:icon="@drawable/inventory_icon"/>
+
+    <item android:title=""
+        android:id="@+id/item_none"/>
+
+    <item android:title="Magic Wand"
+        android:id="@+id/healthReportFragment"
+        android:icon="@drawable/health_repo_icon"/>
+
+    <item android:title="Current Plan"
+        android:id="@+id/currentPlanFragment"
+        android:icon="@drawable/current_plan_icon"/>
+
+</menu>
